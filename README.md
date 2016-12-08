@@ -1,2 +1,3 @@
-# advent-of-code-solutions
-Advent of Code Solutions
+# [Advent of Code](http://adventofcode.com) Solutions
+
+Solutions to Advent of Code programming puzzles
