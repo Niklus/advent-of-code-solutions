@@ -38,12 +38,11 @@ function getSqFeet(input){
 
 		sides.push(side1,side2,side3);
 		
-		var min = sides.reduce(function(a, b) {
+		var shortestSide = sides.reduce(function(a, b) {
 			return Math.min(a,b);
 		});
 
 		var surfaceArrea = (side1 + side2 + side3) * 2;
-		var shortestSide = min;
 	    var result = surfaceArrea + shortestSide
 
 		results.push(result);		
